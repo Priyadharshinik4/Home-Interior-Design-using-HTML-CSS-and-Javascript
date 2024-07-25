@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
+    <title>Ceiling Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+     <!--Landing-->
+     <div class="section">
+        <h5>Enjoy Flat 20% Off On Complete Home Interior.&nbsp;&nbsp;<a href="offer.html">Get Offer</a></h5>
+    </div>
+
+
+        
+            <!--Navigation-->
+            <nav>
+                <div class="logo">
+                    <img src="assets/logo1.png" alt="Logo Image">
+                </div>
+                <div class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Interiors</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Design Gallery</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="kitchen.html">Kitchen Design</a></li>
+                                        <li><a class="dropdown-item" href="wardrobe.html">Wardrobe Design</a></li>
+                                        <li><a class="dropdown-item" href="bedroom.html">Bedroom Design</a></li>
+                                        <li><a class="dropdown-item" href="livingroom.html">Living room Design</a></li>
+                                        <li><a class="dropdown-item" href="diningroom.html">Dining Room Design</a></li>
+                                        <li><a class="dropdown-item" href="office.html">Home Office Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cities</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Chennai</a></li>
+                                        <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                                        <li><a class="dropdown-item" href="#">Bengaluru</a></li>
+                                        <li><a class="dropdown-item" href="#">Hyderabad</a></li>
+                                        <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                                        <li><a class="dropdown-item" href="#">Coimbatore</a></li>
+                                        <li><a class="dropdown-item" href="#">Mysore</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="reviews.html">Reviews</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                                        <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                        <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item1 dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="login.html"> Login / Signup</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Contact Form-->
+            <div class="section1">
+                <div class="form1">
+                    <h1>Contact Us</h1>
+                    <h1>We’d love to hear from you</h1>
+                    <p>Whether your query is about features, materials, pricing, or anything else, our team is ready to <br>answer all your questions.</p>
+                    <img src="assets/img31.jpg" alt="Image">
+                </div>
+                <div class="form2">
+                    <form action="contact.php" method="get">
+                        <label>Full Name*</label><br>
+                        <input type="text" name="name" placeholder="Full Name" required><br>
+                        <label>Mobile No.*</label><br>
+                        <input type="text" name="mobile" placeholder="Mobile No." required><br>
+                        <label>Email Id*</label><br>
+                        <input type="email" name="email" placeholder="Email Id" required><br>
+                        <label>Select Location*</label><br>
+                        <select name="location" required><br>
+                            <option>Select Cities</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mysore">Mysore</option>
+                            <option value="Coimbatore">Coimbatore</option>
+                            <option value="Vizag">Vizag</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Thane">Thane</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                        </select><br>
+                        <label>Message*</label><br>
+                        <textarea name="message" placeholder="Message" required></textarea><br>
+                        <button>Submit</button>
+                </div>
+            </div>
+
+
+
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="section3">
+            <img src="assets/logo1.png" alt="Logo Image">
+        </div>
+        <div class="icons1">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="section4">
+            <h6>© 2024 BRAND model.com All Rights Reserved</h6>
+        </div>
+    </footer>
+      
+    
+</body>
+</html>        

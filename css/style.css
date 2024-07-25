@@ -1,0 +1,417 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+/*Landing*/
+.section{
+    background-color: rgb(3, 134, 221);
+    height: 40px;
+    color: white;
+}
+.section h5{
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+.section a{
+    color: white;
+}
+.section a:hover{
+    color: white;
+}
+
+/*Navigation*/
+nav{
+    display: flex;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 20px #000000;
+    border: none;   
+}
+.logo img{
+    width: 170px;
+    height: 90px;
+}
+.collapse ul{
+    color: white;
+    position: absolute;
+    left: 20rem;
+    padding: 0 20px 0 20px;
+}
+.nav-item{
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+}
+.dropdown-item{
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+.nav-item1{
+    font-size: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3.5px black;
+    border: none;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.nav-item1:hover{
+    transform: scale(1.1);
+}
+
+
+/*Carousel*/
+.carousel-caption h2{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.carousel-caption button{
+    border-radius: 40px;
+    padding: 15px;
+    margin-bottom: 60px;
+    background-color: rgb(3, 134, 221);
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 5px rgb(3, 134, 221);;
+}
+.carousel-caption button:hover{
+    transform: scale(1.1);
+}
+.icons{
+    position: fixed;
+    right: 0;
+    top: 14rem;
+}
+.whatsapp i{
+    margin-bottom: 50px;
+    color: rgb(9, 158, 46);
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgb(9, 158, 46);
+    border: 1px solid white;
+    background-color: white;
+    padding: 7px 5px 7px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 2px 2px 20px white;
+}
+.phone i{
+    font-size: 35px;
+    color: #1a1a1a;
+    text-decoration: 1px 1px 3px  #1a1a1a;
+    border: 1px solid white;
+    background-color: white;
+    padding: 7px 5px 7px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 2px 2px 20px white;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+
+/*Ceiling*/
+
+.ceiling{
+    background-color: white;
+    padding: 20px;
+}
+.ceiling h1{
+    font-size: 25px;
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+.ceiling h1::before{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color:  rgb(3, 134, 221);
+    width: 50px;
+    position: relative;
+    left: 20rem;
+    top: 18px;
+}
+.ceiling h1::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color:  rgb(3, 134, 221);
+    width: 50px;
+    position: relative;
+    left: 46.5rem;
+    bottom: 12px;
+}
+#img1 img{
+    border-radius: 50px;
+    width: 100%;
+    height: 24rem;
+    padding: 10px 20px 10px 20px;
+}
+.ceiling button{
+    background-color: rgb(3, 134, 221);
+    border: none;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 30px 0 30px 0;
+    position: relative;
+    left: 32rem;
+}
+.ceiling button a{
+    text-decoration: none;
+    color: white;
+}
+.ceiling button:hover{
+    transform: scale(1.1);
+}
+
+
+/*Bedroom*/
+
+.bedroom{
+    background-color: rgb(235, 247, 253);
+    padding: 20px;
+}
+.bedroom h1{
+    font-size: 25px;
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+.bedroom h1::before{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color:  rgb(3, 134, 221);
+    width: 50px;
+    position: relative;
+    left: 24rem;
+    top: 18px;
+}
+.bedroom h1::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color:  rgb(3, 134, 221);
+    width: 50px;
+    position: relative;
+    left: 42.5rem;
+    bottom: 12px;
+}
+#img2 img{
+    border-radius: 50px;
+    width: 100%;
+    height: 22rem;
+    padding: 10px 20px 10px 20px;
+}
+.bedroom button{
+    background-color: rgb(3, 134, 221);
+    border: none;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 30px 0 30px 0;
+    position: relative;
+    left: 32rem;
+}
+.bedroom button a{
+    text-decoration: none;
+    color: white;
+}
+.bedroom button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    background-color: rgb(3, 134, 221);
+    text-align: center;
+}
+.section3 img{
+    width: 150px;
+    height: 130px;
+}
+.icons1 i{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 8px;
+    color: white;
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+}
+.icons1 i:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(3, 134, 221) ;
+}
+footer h6{
+    color: white;
+    padding: 15px;
+}
+
+
+
+/*Login Page*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin1 img{
+    width: 62%;
+}
+.signin2{
+    position: relative;
+    right: 16rem;
+    bottom: 1.5rem;
+}
+.signin3 h3{
+    position: relative;
+    left: 5rem;
+    padding: 10px;
+    color: gray;
+}
+.name input{
+    width: 150%;
+    height: 40px;
+    margin: 10px;
+}
+.check{
+    margin: 10px;
+}
+.check input{
+    width: 18px;
+    height: 18px;
+}
+.check label{
+    font-size: 17px;
+    padding: 0 10px 6px;
+}
+.check small{
+    font-size: 16px;
+}
+.submit{
+    margin: 15px 0 ;
+    position: relative;
+    left: 3rem;
+}
+.submit button a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.submit button{
+    border-radius: 10px;
+    padding: 8px;
+    border-color: gray;
+    width: 100%;
+    height: 40px;
+}
+.submit button:hover{
+    color: white;
+    background-color: gray;
+}
+.signin4 h6{
+    position: relative;
+    left: 6rem;
+    padding-bottom: 8px;
+}
+.icons2 i{
+    position: relative;
+    left: 6rem;
+    padding: 0 5px 8px;
+    font-size: 20px;
+}
+.signup h6{
+    position: relative;
+    left: 3.5rem;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+
+/*Bedroom*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.heading{
+    padding: 25px 4rem;
+}
+.heading h1{
+    font-size: 26px;
+}
+.heading p{
+    font-size: 16px;
+}
+.img2{
+    width: 60rem;
+    height: 35rem;
+    margin-left: 12rem;
+}
+.heading1 h1{
+    font-size: 24px;
+    padding: 40px 12rem;
+}
+
+/*Contact Form*/
+
+.section1{
+    display: flex;
+}
+.form1{
+    padding: 45px;
+}
+.form1 h1{
+    font-size: 33px;
+    padding: 20px 0;
+}
+.form1 p{
+    font-size: 18.5px;
+}
+.form1 img{
+    width: 500px;
+    height: 400px;
+    margin:2rem 6.5rem;
+}
+.form2{
+    padding: 50px;
+    margin-top: 20px;
+}
+.form2 label{
+    font-size: 17px;
+    padding: 17px 0;
+}
+.form2 input,select,textarea{
+    width: 27rem;
+    height: 38px;
+    background-color: rgb(255, 246, 248);
+    border: none;
+}
+.form2 textarea{
+    height: 7rem;
+}
+.form2 button{
+    width: 27rem;
+    height: 45px;
+    margin: 30px 0;
+    color: white;
+    font-size: 20px;
+    background-color:  rgb(3, 134, 221);
+    border: none;
+    border-radius: 8px;
+}
+.form2 button:hover{
+    transform: scale(1.1);
+}
