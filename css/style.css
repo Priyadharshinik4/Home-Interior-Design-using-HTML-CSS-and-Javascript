@@ -32,6 +32,7 @@ nav{
 .logo img{
     width: 170px;
     height: 90px;
+    filter: drop-shadow(2px 2px 4px  rgb(39, 162, 243));
 }
 .collapse ul{
     color: white;
@@ -60,6 +61,10 @@ nav{
 }
 .nav-item1:hover{
     transform: scale(1.1);
+}
+.dropdown-menu{
+    z-index: +1;
+    position: relative;
 }
 
 
@@ -110,6 +115,10 @@ nav{
 }
 .icons i:hover{
     cursor: pointer;
+}
+.carousel-item img{
+    z-index: -1;
+    position: relative;
 }
 
 /*Ceiling*/
@@ -235,6 +244,7 @@ footer{
 .section3 img{
     width: 150px;
     height: 130px;
+    filter: drop-shadow(2px 2px 20px white);
 }
 .icons1 i{
     border: 1px solid white;
